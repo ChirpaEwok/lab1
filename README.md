@@ -1,4 +1,4 @@
-[![CI/CD GitHub Actions](https://github.com/ChirpaEwok/lab1/workflows/test-action.yml)](https://github.com/ChirpaEwok/lab1/workflows/test-action.yml)
+[![CI/CD GitHub Actions](https://github.com/ChirpaEwok/lab1/workflows/test-action.yml/badge.svg)](https://github.com/ChirpaEwok/lab1/workflows/test-action.yml)
 [![Coverage Status](https://coveralls.io/repos/github/ChirpaEwok/lab1/badge.svg?branch=master)](https://coveralls.io/github/ChirpaEwok/lab1?branch=master)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
