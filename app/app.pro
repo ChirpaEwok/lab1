@@ -3,9 +3,8 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += \
-    roots.c \
-    main.c
+SOURCES += main.c \
+    roots.c 
 
 HEADERS += \
     roots.h
