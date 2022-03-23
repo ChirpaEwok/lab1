@@ -5,7 +5,9 @@
 
 int main()
 {
-    double a,b,c;
+    double a;
+    double b;
+    double c;
     printf("Введите значения a,b и c: ");
     scanf("%lf%lf%lf", &a, &b, &c);
     int r = square_root(a, b, c);
