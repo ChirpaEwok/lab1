@@ -1,7 +1,6 @@
 #include <gtest/gtest.h>
 #include <math.h>
 
-/* using namespace testing; */
 extern "C" {
 #include "roots.h"
 }    
