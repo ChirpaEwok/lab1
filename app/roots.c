@@ -3,7 +3,7 @@
 
 #include "roots.h"
 
-double x1
+double x1;
 double x2;
 
 int square_root(double a, double b, double c)
