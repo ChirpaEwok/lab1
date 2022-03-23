@@ -10,7 +10,7 @@ SOURCES += \
 HEADERS += \
     roots.h
 
-QMAKE_CFLAGS += -Wall -Wextra -Werror
+QMAKE_CFLAGS += -Wall -Wextra
 
 # gcov
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
