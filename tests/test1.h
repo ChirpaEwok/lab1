@@ -14,11 +14,11 @@ TEST(test1, zero_root) {
 }
 
 TEST(test1, one_root) {
-    ASSERT_EQ(1, square_root(1, 2, 1, &x1, &x));
+    ASSERT_EQ(1, square_root(1, 2, 1, &x1, &x2));
 }
 
 TEST(test1, two_root) {
-    ASSERT_EQ(2, square_root(1, 6, 5, &x1, &x));
+    ASSERT_EQ(2, square_root(1, 6, 5, &x1, &x2));
 }
 
 #endif // TEST_H
