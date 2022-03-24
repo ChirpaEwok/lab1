@@ -4,3 +4,8 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ChirpaEwok_lab1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ChirpaEwok_lab1)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ChirpaEwok_lab1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ChirpaEwok_lab1)
 
+# Модуль roots_tests.h
+## Метод
+Цель: Проверить работу функции на вычисление корней квадратоного уравнения.
+Тип: Позитивный
+Входные данные:
