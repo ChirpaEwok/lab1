@@ -1,5 +1,5 @@
-#ifndef TEST_H
-#define TEST_H
+#ifndef ROOTS_TEST.H
+#define ROOTS_TEST.H
 
 #include <gtest/gtest.h>
 
@@ -25,4 +25,4 @@ TEST(test1, two_root) {
     ASSERT_EQ(2, square_root(1, 6, 5, &x1, &x2));
 }
 
-#endif // TEST_H
+#endif // ROOTS_TEST.H
