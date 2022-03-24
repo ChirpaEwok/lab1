@@ -16,7 +16,7 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=    test1.h \
+HEADERS +=    roots_tests.h \
     ../app/roots.h \
 
 SOURCES +=     main.cpp \
