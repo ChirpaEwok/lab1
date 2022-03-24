@@ -7,6 +7,8 @@ extern "C" {
 #include "roots.h"
 }    
 TEST(test1, zero_root) {
+    double x1 = 0;
+    double x2 = 0;
     ASSERT_EQ(0, square_root(0, 0, 5, &x1, &x2));
     ASSERT_EQ(0, square_root(2, 1, 2, &x1, &x2));
 }
