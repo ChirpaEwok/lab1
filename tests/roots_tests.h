@@ -1,6 +1,3 @@
-#ifndef ROOTS_TEST.H
-#define ROOTS_TEST.H
-
 #include <gtest/gtest.h>
 
 extern "C" {
@@ -27,5 +24,3 @@ TEST(test3, two_root) {
     ASSERT_EQ(2, square_root(1, 6, 5, &x1, &x2));
     ASSERT_EQ(2, square_root(1.5, 5, 1.5, &x1, &x2));
 }
-
-#endif // ROOTS_TEST.H
