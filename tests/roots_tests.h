@@ -25,6 +25,17 @@ TEST(amount_of_roots, two_root) {
     ASSERT_EQ(2, square_root(1.5, 5, 1.5, &x1, &x2));
 }
 
+TEST(root_values, zero_root) {
+    double x1 = 0;
+    double x2 = 0;
+    square_root(0, 0, 5, &x1, &x2);
+    ASSERT_TRUE(x1 == x2 == 0);
+    square_root(2, 1, 2, &x1, &x2);
+    ASSERT_TRUE(x1 == x2 == 0);
+    square_root(1.5, 0.5, 1.5, &x1, &x2);
+    ASSERT_TRUE(x1 == x2 == 0);
+}
+
 TEST(root_values, one_root) {
     double x1 = 0;
     double x2 = 0;
