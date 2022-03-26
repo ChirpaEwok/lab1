@@ -16,6 +16,7 @@ TEST(amount_of_roots, one_root) {
     double x2 = 0;
     ASSERT_EQ(1, square_root(1, 2, 1, &x1, &x2));
     ASSERT_EQ(1, square_root(0.8, 1.6, 0.8, &x1, &x2));
+    ASSERT_EQ(1, square_root(0, 2, 4, &x1, &x2));
 }
 
 TEST(amount_of_roots, two_root) {
@@ -23,6 +24,7 @@ TEST(amount_of_roots, two_root) {
     double x2 = 0;
     ASSERT_EQ(2, square_root(1, 6, 5, &x1, &x2));
     ASSERT_EQ(2, square_root(1.5, 5, 1.5, &x1, &x2));
+    ASSERT_EQ(2, square_root(-4, 0, 16, &x1, &x2));
 }
 
 TEST(root_values, zero_root) {
@@ -43,6 +45,8 @@ TEST(root_values, one_root) {
     ASSERT_EQ(-1.0, x1);
     square_root(0.8, 1.6, 0.8, &x1, &x2);
     ASSERT_EQ(-1.0, x1);
+    square_root(0, 2, 4, &x1, &x2);
+    ASSERT_EQ(2.0, x1);
 }
 
 TEST(root_values, two_root) {
@@ -54,4 +58,7 @@ TEST(root_values, two_root) {
     square_root(1.5, 5, 1.5, &x1, &x2);
     ASSERT_NEAR(-0.33, x1, 0.5);
     ASSERT_EQ(-3.0, x2);
+    square_root(-4, 0, 16, &x1, &x2);
+    ASSERT_EQ(2.0, x1);
+    ASSERT_EQ(-2.0, x2);
 }
