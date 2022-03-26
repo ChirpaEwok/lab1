@@ -7,8 +7,8 @@ int square_root(double a, double b, double c,  double *x1, double *x2)
 {
     if ((a == 0) && (b == 0))
     {
-	*x1 = NULL;
-	*x2 = NULL;
+	x1 = NULL;
+	x2 = NULL;
     	return 0;
     }
     if ((a == 0) && (b != 0))
@@ -19,8 +19,8 @@ int square_root(double a, double b, double c,  double *x1, double *x2)
     double D = b * b - 4 * a * c;
     if (D < 0)
     {
-	*x1 = NULL;
-	*x2 = NULL;
+	x1 = NULL;
+	x2 = NULL;
     	return 0;
     }
     if (D == 0)
