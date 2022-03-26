@@ -5,7 +5,7 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ChirpaEwok_lab1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ChirpaEwok_lab1)
 
 # Модуль roots_tests.h
-## Метод ASSERT_EQ
+## Метод ASSERT_(EQ, NEAR, TRUE)
 ### Тест №1 (amount_of_roots, zero_root)
 <b>Цель:</b> Проверить работу функции на вычисление корней, когда дискриминант меньше нуля <br/>
 <b>Тип:</b> Негативный <br/>
