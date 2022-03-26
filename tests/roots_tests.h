@@ -28,9 +28,19 @@ TEST(amount_of_roots, two_root) {
 TEST(root_values, one_root) {
     double x1 = 0;
     double x2 = 0;
-    EXPECT_EQ(1, square_root(1, 2, 1, &x1, &x2));
-    if (x1 == -1)
-        SUCCEED();
-    else
-        FAIL();
+    square_root(1, 2, 1, &x1, &x2);
+    ASSERT_EQ(-1.0, x1);
+    square_root(0.8, 1.6, 0.8, &x1, &x2);
+    ASSERT_EQ(-1.0, x1);
+}
+
+TEST(root_values, two_root) {
+    double x1 = 0;
+    double x2 = 0;
+    square_root(1, 6, 5, &x1, &x2);
+    ASSERT_EQ(-1.0, x1);
+    ASSERT_EQ(-5.0, x2);
+    square_root(1.5, 5, 1.5, &x1, &x2);
+    ASSERT_DOUBLE_EQ(-0.33, x1);
+    ASSERT_EQ(-3.0, x2);
 }
