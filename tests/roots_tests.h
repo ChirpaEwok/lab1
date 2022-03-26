@@ -59,6 +59,6 @@ TEST(root_values, two_root) {
     ASSERT_NEAR(-0.33, x1, 0.5);
     ASSERT_EQ(-3.0, x2);
     square_root(-4, 0, 16, &x1, &x2);
-    ASSERT_EQ(2.0, x1);
-    ASSERT_EQ(-2.0, x2);
+    ASSERT_EQ(-2.0, x1);
+    ASSERT_EQ(2.0, x2);
 }
