@@ -46,7 +46,7 @@ TEST(root_values, one_root) {
     square_root(0.8, 1.6, 0.8, &x1, &x2);
     ASSERT_EQ(-1.0, x1);
     square_root(0, 2, 4, &x1, &x2);
-    ASSERT_EQ(2.0, x1);
+    ASSERT_EQ(-2.0, x1);
 }
 
 TEST(root_values, two_root) {
